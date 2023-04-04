@@ -6,6 +6,7 @@
 }
 
 html, body {
+  background-color: rgb(37, 41, 37);
     display: flex;
     height: 100%;
     width: 100%;
@@ -30,6 +31,7 @@ html, body {
     margin-bottom: 30px;
     margin-right: 30px;
 
+    cursor: pointer;
 
 }
 
@@ -72,7 +74,7 @@ html, body {
     min-width: 200px;
     text-align: center;
     width: 13vw;
-    height: 25%;
+    height: 235px;
     border-radius: 50px;
     background-color: antiquewhite;
     margin: 10px;
@@ -95,12 +97,14 @@ html, body {
     position: relative;
     left: 13%;
     order: 1;        /* mudar depois*/
+    cursor: pointer;
 }
 
 .lapis{
     position: relative;
     right: 13%;
     order: 3;
+    cursor: pointer;
    
 }
 
@@ -114,7 +118,6 @@ html, body {
 }
 
 .cores {
-    display: relative;
     gap: 3px;
     align-self: end;
     display: flex;
@@ -166,4 +169,5 @@ html, body {
 
 }
   
+
 
